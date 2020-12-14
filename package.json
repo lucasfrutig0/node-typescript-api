@@ -1,0 +1,34 @@
+{
+  "name": "typescript-api",
+  "version": "1.0.0",
+  "description": "typescript Nodejs api",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "yarn build && node dist/src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasfrutig0/node-typescript-api.git"
+  },
+  "keywords": [
+    "typescript",
+    "nodejs",
+    "api"
+  ],
+  "author": "Lucas Frutig",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucasfrutig0/node-typescript-api/issues"
+  },
+  "homepage": "https://github.com/lucasfrutig0/node-typescript-api#readme",
+  "devDependencies": {
+    "@types/module-alias": "^2.0.0",
+    "@types/node": "^14.14.13",
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.2"
+  }
+}
